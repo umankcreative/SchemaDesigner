@@ -1,0 +1,879 @@
+{
+  "globalTheme": {
+    "colors": {
+      "primary": "58 134 255",
+      "secondary": "255 190 11",
+      "background": "243 244 246",
+      "surface": "131 56 236",
+      "text-base": "17 24 39",
+      "text-muted": "55 65 81"
+    },
+    "fonts": {
+      "heading": "'Lora', sans-serif",
+      "body": "'Lexend', sans-serif"
+    }
+  },
+  "components": {
+    "navigation": {
+      "content": {
+        "logoUrl": "https://placehold.co/140x40/111827/ffffff?text=LandingOn",
+        "navLinks": [
+          {
+            "text": "Fitur",
+            "link": "#features"
+          },
+          {
+            "text": "Harga",
+            "link": "#pricing"
+          },
+          {
+            "text": "Tentang",
+            "link": "#about"
+          },
+          {
+            "text": "FAQ",
+            "link": "#faq"
+          }
+        ],
+        "ctaButton": {
+          "text": "Mulai Gratis",
+          "link": "#ctaBanner"
+        }
+      },
+      "theme": {
+        "header": "bg-surface/80 backdrop-blur-lg sticky top-0 z-50 border-b border-gray-200/80",
+        "nav": "container mx-auto flex items-center justify-between p-4 px-6",
+        "logoImg": "h-8 md:h-9",
+        "desktopLinksContainer": "hidden md:flex items-center space-x-8",
+        "navLink": "text-text-muted hover:text-primary transition-colors after-line",
+        "desktopCtaContainer": "hidden md:flex items-center space-x-4",
+        "ctaButton": "bg-primary text-white px-5 py-2.5 rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm hover:shadow-lg hover:scale-105 transform",
+        "mobileMenuButton": "md:hidden p-2 text-text-base",
+        "mobileMenuPanel": "md:hidden bg-surface border-t border-gray-200",
+        "mobileMenuContent": "px-4 py-4 space-y-4",
+        "mobileNavLink": "block text-text-muted hover:text-primary transition-colors font-medium",
+        "mobileCtaButton": "block w-full bg-primary text-white px-5 py-2.5 rounded-lg text-sm font-semibold text-center"
+      }
+    },
+    "hero": {
+      "content": {
+        "headline": "Transformasi Bisnis Anda dengan Solusi Inovatif Kami",
+        "subheadline": "Capai efisiensi, tingkatkan produktivitas, dan percepat pertumbuhan dengan platform terintegrasi yang mudah digunakan.",
+        "ctaButton": {
+          "text": "Coba Gratis 14 Hari",
+          "link": "#ctaBanner"
+        },
+        "visual": {
+          "type": "slider",
+          "slides": [
+            {
+              "imageUrl": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=2069&auto=format&fit=crop",
+              "altText": "Tampilan dasbor manajemen proyek yang intuitif."
+            },
+            {
+              "imageUrl": "https://images.unsplash.com/photo-1665686308827-eb62e4f6604d?q=80&w=2070&auto=format&fit=crop",
+              "altText": "Grafik analitik yang menunjukkan pertumbuhan bisnis."
+            },
+            {
+              "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop",
+              "altText": "Tim berkolaborasi menggunakan platform di berbagai perangkat."
+            },
+            {
+              "imageUrl": "https://picsum.photos/seed/slider4/1200/800",
+              "altText": "Fitur keamanan canggih yang melindungi data pengguna."
+            }
+          ]
+        }
+      },
+      "theme": {
+        "section": "relative bg-background  md:h-[calc(100vh-64px)]",
+        "container": " t-0 pt-6 px-2 md:pt-32 absolute left-0 z-50 inset-0",
+        "subcontainer": " text-center z-10 md:p-16 md:mx-32 md:my-8 bg-surface/40 border border-surface drop-shadow-xl rounded-2xl",
+        "headline": "text-xl md:text-3xl xl:text-6xl font-extrabold text-tex-base racking-tighter leading-tight ",
+        "subheadline": "mt-6 text-sm text-text-muted md:text-xl max-w-3xl mx-auto drop-shadow-md",
+        "ctaButton": "inline-block m-5 md:mt-10 bg-primary text-white px-2 md:px-8 py-2 md:py-4 rounded-lg font-bold text-lg hover:opacity-90 transition-transform hover:scale-105 shadow-lg",
+        "visualContainer": "mt-16 w-full max-w-4xl mx-auto aspect-[16/10] rounded-xl shadow-2xl ring-1 ring-black/5 overflow-hidden",
+        "visualImage": "w-full object-contain md:object-contain opacity-60 hover:opacity-100 transition-opacity",
+        "animation": {
+          "type": "fadeInUp",
+          "duration": "800ms"
+        }
+      }
+    },
+    "socialProof": {
+      "content": {
+        "title": "Dipercaya oleh ribuan perusahaan terkemuka",
+        "clientLogos": [
+          {
+            "name": "GlobalTech",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=GlobalTech"
+          },
+          {
+            "name": "Innovate Inc.",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=Innovate"
+          },
+          {
+            "name": "Quantum Leap",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=Quantum"
+          },
+          {
+            "name": "FutureCorp",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=FutureCorp"
+          },
+          {
+            "name": "NextGen",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=NextGen"
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-background py-16 z-49",
+        "container": "container mx-auto px-6",
+        "title": "text-center text-base font-semibold text-text-muted tracking-wider uppercase mb-10",
+        "logosContainer": "flex flex-wrap justify-center items-center gap-x-12 sm:gap-x-16 gap-y-8",
+        "logoImage": "h-7 object-contain opacity-60 hover:opacity-100 transition-opacity",
+        "animation": {
+          "type": "fadeIn",
+          "duration": "1000ms",
+          "delay": "200ms"
+        }
+      }
+    },
+    "features": {
+      "content": {
+        "title": "Semua yang Anda Butuhkan dalam Satu Platform",
+        "subtitle": "Jelajahi fitur-fitur canggih yang dirancang untuk menyederhanakan alur kerja Anda.",
+        "featureList": [
+          {
+            "icon": "🚀",
+            "title": "Performa Cepat",
+            "description": "Rasakan kecepatan kilat yang meningkatkan produktivitas tim Anda secara drastis."
+          },
+          {
+            "icon": "🔒",
+            "title": "Keamanan Terjamin",
+            "description": "Enkripsi end-to-end dan standar keamanan kelas dunia untuk melindungi data Anda."
+          },
+          {
+            "icon": "📊",
+            "title": "Analitik Mendalam",
+            "description": "Dapatkan wawasan berharga dari data Anda dengan dasbor analitik yang intuitif."
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-surface py-24",
+        "container": "container mx-auto px-6",
+        "headerContainer": "text-center max-w-3xl mx-auto",
+        "title": "text-4xl font-bold text-text-base",
+        "subtitle": "mt-4 text-lg text-text-muted",
+        "grid": "mt-20 grid md:grid-cols-3 gap-12",
+        "featureItem": "text-center",
+        "featureIcon": "text-5xl mb-5 flex items-center justify-center h-16",
+        "featureTitle": "text-xl font-bold text-text-base mb-2",
+        "featureDescription": "text-text-muted",
+        "animation": {
+          "type": "fadeInUp",
+          "duration": "800ms"
+        }
+      }
+    },
+    "howItWorks": {
+      "content": {
+        "title": "Mulai dalam Hitungan Menit",
+        "steps": [
+          {
+            "step": "1",
+            "title": "Daftar Akun",
+            "description": "Buat akun gratis Anda tanpa memerlukan kartu kredit."
+          },
+          {
+            "step": "2",
+            "title": "Integrasikan Data",
+            "description": "Hubungkan sumber data Anda dengan beberapa klik mudah."
+          },
+          {
+            "step": "3",
+            "title": "Mulai Analisis",
+            "description": "Visualisasikan data dan temukan wawasan baru secara instan."
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-background py-24",
+        "container": "container mx-auto px-6",
+        "title": "text-4xl font-bold text-text-base text-center mb-16",
+        "grid": "grid md:grid-cols-3 gap-10",
+        "stepItem": "relative p-8 bg-surface rounded-xl shadow-lg border border-gray-200/80",
+        "stepNumber": "absolute -top-6 -left-6 bg-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold ring-8 ring-background",
+        "stepTitle": "mt-4 text-xl font-bold text-text-base mb-2",
+        "stepDescription": "text-text-muted",
+        "animation": {
+          "type": "zoomIn",
+          "duration": "700ms"
+        }
+      }
+    },
+    "productShowcase": {
+      "content": {
+        "title": "Pameran Produk",
+        "subtitle": "Lihat bagaimana platform kami bekerja dalam berbagai skenario untuk menyederhanakan pekerjaan Anda.",
+        "showcases": [
+          {
+            "imageUrl": "https://picsum.photos/seed/project/600/400",
+            "title": "Manajemen Proyek",
+            "description": "Atur tugas, tenggat waktu, dan sumber daya dengan mudah.",
+            "features": [
+              "Papan Kanban",
+              "Bagan Gantt",
+              "Pelacakan Waktu"
+            ]
+          },
+          {
+            "imageUrl": "https://picsum.photos/seed/collab/600/400",
+            "title": "Kolaborasi Tim",
+            "description": "Jaga agar semua orang tetap selaras dengan alat komunikasi terpusat.",
+            "features": [
+              "Obrolan Real-time",
+              "Berbagi File",
+              "Komentar Tugas"
+            ]
+          },
+          {
+            "imageUrl": "https://picsum.photos/seed/report/600/400",
+            "title": "Pelaporan Otomatis",
+            "description": "Hasilkan laporan mendalam secara otomatis untuk mengukur kemajuan.",
+            "features": [
+              "Dasbor Kustom",
+              "Ekspor PDF",
+              "Jadwal Laporan"
+            ]
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-surface py-24",
+        "container": "container mx-auto px-6",
+        "headerContainer": "text-center max-w-3xl mx-auto",
+        "title": "text-4xl font-bold text-text-base",
+        "subtitle": "mt-4 text-lg text-text-muted",
+        "grid": "mt-20 grid md:grid-cols-3 gap-10",
+        "showcaseItem": "bg-background rounded-lg shadow-md overflow-hidden border border-gray-200/80",
+        "itemImage": "w-full h-48 object-cover",
+        "itemContent": "p-6",
+        "itemTitle": "text-xl font-bold text-text-base",
+        "itemDescription": "text-text-muted mt-2 mb-4",
+        "itemFeaturesList": "space-y-2 text-sm",
+        "itemFeature": "flex items-center text-text-muted",
+        "animation": {
+          "type": "fadeInUp",
+          "duration": "800ms"
+        }
+      }
+    },
+    "horizontalScroll": {
+      "content": {
+        "cards": [
+          {
+            "title": "The Land",
+            "subtitle": "Discover the vibrant soul of our land, painted in emerald greens and sky blues.",
+            "bgColor": "bg-emerald-200",
+            "titleStyle": "text-5xl md:text-7xl font-bold font-heading mb-4 text-background",
+            "subtitleStyle": "text-lg md:text-2xl font-body text-secondary",
+            "imgSrc": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=1974&auto=format&fit=crop"
+          },
+          {
+            "title": "The Spirit",
+            "subtitle": "Feel the energy and freedom. A spirit as bright and vivid as a coral sunset.",
+            "bgColor": "bg-amber-200",
+            "titleStyle": "text-5xl md:text-7xl font-bold font-heading mb-4 text-background",
+            "subtitleStyle": "text-lg md:text-2xl font-body text-secondary",
+            "imgSrc": "https://images.unsplash.com/photo-1617814086906-d847a8bc6fca?q=80&w=2042&auto=format&fit=crop"
+          },
+          {
+            "title": "The Vision",
+            "subtitle": "A future built on clear, bright ideas, reflecting the vivid sky above.",
+            "bgColor": "bg-blue-200",
+            "titleStyle": "text-5xl md:text-7xl font-bold font-heading mb-4 text-primary",
+            "subtitleStyle": "text-lg md:text-2xl font-body text-secondary",
+            "imgSrc": "https://images.unsplash.com/photo-1530675706010-bc677ce30ab6?q=80&w=2070&auto=format&fit=crop"
+          },
+          {
+            "title": "The Legacy",
+            "subtitle": "A story written in the stars of our rich, deep-black night sky.",
+            "bgColor": "bg-slate-200",
+            "titleStyle": "text-5xl md:text-7xl font-bold font-heading mb-4 text-green-400",
+            "subtitleStyle": "text-lg md:text-2xl font-body text-secondary",
+            "imgSrc": "https://images.unsplash.com/photo-1500534623283-312aade485b7?q=80&w=2070&auto=format&fit=crop"
+          }
+        ]
+      },
+      "theme": {
+        "section": "overflow-hidden",
+        "container": "max-w-2xl text-center p-8",
+        "title": "text-5xl md:text-7xl font-bold font-heading mb-4 text-primary",
+        "subtitle": "text-lg md:text-2xl font-body text-secondary",
+        "panel": "panel w-screen h-screen flex flex-col justify-center items-center shrink-0",
+        "sliderContainer": "h-screen flex flex-nowrap"
+      }
+    },
+    "about": {
+      "content": {
+        "title": "Tentang Kami",
+        "subtitle": "Kami bersemangat membangun alat yang membantu tim mencapai hal-hal luar biasa.",
+        "imageUrl": "https://picsum.photos/seed/team/800/600",
+        "mission": {
+          "title": "Misi Kami",
+          "text": "Memberdayakan bisnis dari semua ukuran dengan teknologi yang intuitif, kuat, dan dapat diakses untuk mendorong pertumbuhan dan inovasi."
+        },
+        "vision": {
+          "title": "Visi Kami",
+          "text": "Menciptakan masa depan di mana setiap organisasi dapat dengan mudah memanfaatkan potensi penuh data dan kolaborasi mereka."
+        }
+      },
+      "theme": {
+        "section": "bg-background py-24",
+        "container": "container mx-auto px-6",
+        "grid": "grid md:grid-cols-2 gap-16 items-center",
+        "imageContainer": "",
+        "image": "rounded-xl shadow-2xl",
+        "contentContainer": "",
+        "title": "text-4xl font-bold text-text-base",
+        "subtitle": "mt-4 text-lg text-text-muted",
+        "pointsContainer": "mt-8 space-y-6",
+        "pointTitle": "text-xl font-semibold text-text-base",
+        "pointText": "text-text-muted mt-2",
+        "animation": {
+          "type": "slideInLeft",
+          "duration": "800ms"
+        }
+      }
+    },
+    "problemSolution": {
+      "content": {
+        "title": "Tantangan Umum, Solusi Cerdas",
+        "items": [
+          {
+            "problem": {
+              "title": "Alur Kerja Terfragmentasi",
+              "description": "Tim menggunakan terlalu banyak alat, menyebabkan inefisiensi dan kehilangan data."
+            },
+            "solution": {
+              "title": "Platform Terpadu",
+              "description": "Satukan semua alur kerja Anda di satu tempat untuk visibilitas dan kontrol yang lengkap."
+            }
+          },
+          {
+            "problem": {
+              "title": "Data Tersebar",
+              "description": "Informasi penting tersebar di berbagai spreadsheet dan aplikasi."
+            },
+            "solution": {
+              "title": "Sumber Kebenaran Tunggal",
+              "description": "Pusatkan data Anda untuk analitik yang akurat dan pengambilan keputusan yang lebih baik."
+            }
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-surface py-24",
+        "container": "container mx-auto px-6 max-w-5xl",
+        "title": "text-4xl font-bold text-text-base text-center mb-16",
+        "itemsContainer": "space-y-12",
+        "grid": "grid md:grid-cols-2 gap-8 items-center",
+        "problemCard": "bg-red-50 border border-red-200 p-8 rounded-lg",
+        "problemHeader": "text-2xl font-semibold text-red-800",
+        "problemTitle": "mt-2 text-lg font-bold text-red-900",
+        "problemDescription": "mt-2 text-red-700",
+        "solutionCard": "bg-green-50 border border-green-200 p-8 rounded-lg",
+        "solutionHeader": "text-2xl font-semibold text-green-800",
+        "solutionTitle": "mt-2 text-lg font-bold text-green-900",
+        "solutionDescription": "mt-2 text-green-700",
+        "animation": {
+          "type": "fadeInUp",
+          "duration": "800ms"
+        }
+      }
+    },
+    "comparison": {
+      "content": {
+        "title": "Bagaimana Kami Berbeda",
+        "subtitle": "Lihat perbandingan kami dengan solusi tradisional.",
+        "headers": [
+          "Fitur",
+          "LandingOn",
+          "Pesaing Lain"
+        ],
+        "rows": [
+          {
+            "feature": "Kolaborasi Real-time",
+            "values": [
+              true,
+              false
+            ]
+          },
+          {
+            "feature": "Dukungan Pelanggan 24/7",
+            "values": [
+              true,
+              "Hanya Email"
+            ]
+          },
+          {
+            "feature": "Harga Transparan",
+            "values": [
+              true,
+              false
+            ]
+          },
+          {
+            "feature": "Integrasi Tanpa Batas",
+            "values": [
+              true,
+              "Terbatas"
+            ]
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-background py-24",
+        "container": "container mx-auto px-6 max-w-4xl",
+        "headerContainer": "text-center max-w-3xl mx-auto",
+        "title": "text-4xl font-bold text-text-base",
+        "subtitle": "mt-4 text-lg text-text-muted",
+        "tableContainer": "mt-12 overflow-x-auto",
+        "table": "w-full text-left border-collapse",
+        "tableHeader": "p-4 border-b-2 font-semibold",
+        "tableRow": "border-b",
+        "featureCell": "p-4 font-medium",
+        "valueCell": "p-4 text-center",
+        "checkIcon": "inline-block bg-primary/20 text-primary p-2 rounded-full leading-none",
+        "dashIcon": "text-gray-400",
+        "animation": {
+          "type": "zoomIn"
+        }
+      }
+    },
+    "testimonials": {
+      "content": {
+        "title": "Apa Kata Mereka yang Telah Sukses",
+        "testimonialList": [
+          {
+            "name": "Andi Pratama",
+            "position": "CEO, Startup Maju",
+            "photoUrl": "https://picsum.photos/seed/andi/100",
+            "quote": "Luar biasa! Platform ini menghemat waktu tim kami hingga 50%. Wajib dimiliki oleh setiap bisnis yang sedang berkembang."
+          },
+          {
+            "name": "Citra Lestari",
+            "position": "Marketing Director, Inovasi Kreatif",
+            "photoUrl": "https://picsum.photos/seed/citra/100",
+            "quote": "Analitiknya sangat kuat. Kami dapat membuat keputusan berbasis data dengan lebih percaya diri sekarang. Terima kasih!"
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-surface py-24",
+        "container": "container mx-auto px-6",
+        "title": "text-4xl font-bold text-text-base text-center mb-16",
+        "grid": "grid md:grid-cols-2 gap-12",
+        "testimonialItem": "bg-background p-8 rounded-xl border border-gray-200/80",
+        "quote": "text-lg text-text-base italic mb-6",
+        "authorContainer": "flex items-center",
+        "authorPhoto": "w-14 h-14 rounded-full",
+        "authorName": "font-bold text-text-base",
+        "authorPosition": "text-text-muted",
+        "animation": {
+          "type": "fadeInUp",
+          "duration": "800ms"
+        }
+      }
+    },
+    "ctaRepeated": {
+      "content": {
+        "title": "Jangan Hanya Bekerja. Berkembang.",
+        "cta": {
+          "text": "Mulai Sekarang",
+          "link": "#"
+        }
+      },
+      "theme": {
+        "section": "bg-background py-16",
+        "container": "container mx-auto px-6 text-center",
+        "title": "text-3xl font-bold text-text-base",
+        "ctaLink": "inline-flex items-center mt-6 text-primary font-semibold text-lg hover:underline",
+        "animation": {
+          "type": "fadeIn"
+        }
+      }
+    },
+    "pricing": {
+      "content": {
+        "title": "Pilih Paket yang Tepat untuk Anda",
+        "plans": [
+          {
+            "name": "Basic",
+            "price": "Rp 299rb/bln",
+            "features": [
+              "5 Proyek",
+              "10 GB Penyimpanan",
+              "Dukungan Dasar"
+            ],
+            "isPopular": false,
+            "cta": {
+              "text": "Pilih Basic",
+              "link": "#"
+            }
+          },
+          {
+            "name": "Pro",
+            "price": "Rp 799rb/bln",
+            "features": [
+              "50 Proyek",
+              "100 GB Penyimpanan",
+              "Dukungan Prioritas",
+              "Analitik Lanjutan"
+            ],
+            "isPopular": true,
+            "cta": {
+              "text": "Pilih Pro",
+              "link": "#"
+            }
+          },
+          {
+            "name": "Enterprise",
+            "price": "Hubungi Kami",
+            "features": [
+              "Proyek Tanpa Batas",
+              "Penyimpanan Tanpa Batas",
+              "Dukungan Khusus"
+            ],
+            "isPopular": false,
+            "cta": {
+              "text": "Hubungi Sales",
+              "link": "#"
+            }
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-background py-24",
+        "container": "container mx-auto px-6",
+        "title": "text-4xl font-bold text-text-base text-center mb-16",
+        "grid": "grid lg:grid-cols-3 gap-8 items-center max-w-5xl mx-auto",
+        "planItem": "bg-surface p-8 rounded-xl shadow-lg border border-gray-200/80 transition-transform transform",
+        "planItemPopular": "border-primary scale-105",
+        "popularBadgeContainer": "text-center mb-4",
+        "popularBadge": "bg-primary/20 text-primary font-semibold px-4 py-1 rounded-full text-sm",
+        "planName": "text-xl font-bold text-primary mb-4 text-center",
+        "planPrice": "text-5xl font-extrabold text-text-base mb-8 text-center",
+        "featuresList": "space-y-4 text-text-muted mb-8",
+        "featureItem": "flex items-start",
+        "ctaButton": "block w-full text-center py-3 rounded-lg font-semibold transition-opacity hover:opacity-90 bg-primary/20 text-primary",
+        "ctaButtonPopular": "block w-full text-center py-3 rounded-lg font-semibold transition-opacity hover:opacity-90 bg-primary text-white shadow-lg",
+        "animation": {
+          "type": "fadeInUp",
+          "duration": "800ms"
+        }
+      }
+    },
+    "faq": {
+      "content": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "items": [
+          {
+            "question": "Apakah ada masa percobaan gratis?",
+            "answer": "Tentu! Kami menawarkan masa percobaan 14 hari tanpa risiko, tidak perlu kartu kredit."
+          },
+          {
+            "question": "Bisakah saya membatalkan langganan kapan saja?",
+            "answer": "Ya, Anda dapat membatalkan, meningkatkan, atau menurunkan paket Anda kapan saja dari dasbor akun Anda."
+          },
+          {
+            "question": "Jenis dukungan pelanggan apa yang Anda tawarkan?",
+            "answer": "Kami menawarkan dukungan 24/7 melalui email dan live chat untuk semua paket. Dukungan telepon tersedia untuk paket Enterprise."
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-surface py-24",
+        "container": "container mx-auto max-w-3xl px-6",
+        "title": "text-4xl font-bold text-text-base text-center mb-12",
+        "itemsContainer": "space-y-4",
+        "item": "border border-gray-200/80 rounded-lg",
+        "questionButton": "w-full p-6 font-semibold text-lg text-left flex justify-between items-center hover:bg-background/50 text-text-base",
+        "answerPanel": "px-6 pb-6 text-text-muted",
+        "animation": {
+          "type": "fadeInUp",
+          "duration": "800ms"
+        }
+      }
+    },
+    "resources": {
+      "content": {
+        "title": "Sumber Daya & Wawasan",
+        "subtitle": "Jelajahi artikel terbaru kami untuk tetap terdepan dalam industri Anda.",
+        "items": [
+          {
+            "imageUrl": "https://picsum.photos/seed/blog1/600/400",
+            "category": "Produktivitas",
+            "title": "5 Cara Meningkatkan Efisiensi Tim Anda",
+            "link": "#"
+          },
+          {
+            "imageUrl": "https://picsum.photos/seed/blog2/600/400",
+            "category": "Studi Kasus",
+            "title": "Bagaimana GlobalTech Meningkatkan ROI sebesar 200%",
+            "link": "#"
+          },
+          {
+            "imageUrl": "https://picsum.photos/seed/blog3/600/400",
+            "category": "Berita Produk",
+            "title": "Memperkenalkan Dasbor Analitik Baru Kami",
+            "link": "#"
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-surface py-24",
+        "container": "container mx-auto px-6",
+        "headerContainer": "text-center max-w-3xl mx-auto",
+        "title": "text-4xl font-bold text-text-base",
+        "subtitle": "mt-4 text-lg text-text-muted",
+        "grid": "mt-16 grid md:grid-cols-3 gap-8",
+        "itemLink": "group block bg-background rounded-lg shadow-md overflow-hidden border border-gray-200/80",
+        "itemImage": "w-full h-48 object-cover transition-transform group-hover:scale-105",
+        "itemContent": "p-6",
+        "itemCategory": "text-sm font-semibold text-primary",
+        "itemTitle": "mt-2 text-xl font-bold text-text-base group-hover:text-primary transition-colors",
+        "animation": {
+          "type": "fadeInUp",
+          "duration": "800ms"
+        }
+      }
+    },
+    "integrations": {
+      "content": {
+        "title": "Terhubung dengan Alat Favorit Anda",
+        "subtitle": "Integrasikan dengan mudah dengan ratusan aplikasi populer untuk menyatukan tumpukan teknologi Anda.",
+        "logos": [
+          {
+            "name": "Slack",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=Slack"
+          },
+          {
+            "name": "Google Drive",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=Drive"
+          },
+          {
+            "name": "Jira",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=Jira"
+          },
+          {
+            "name": "GitHub",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=GitHub"
+          },
+          {
+            "name": "Trello",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=Trello"
+          },
+          {
+            "name": "Salesforce",
+            "logoUrl": "https://placehold.co/150x50/cccccc/888888?text=Salesforce"
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-background py-24",
+        "container": "container mx-auto px-6",
+        "headerContainer": "text-center max-w-3xl mx-auto",
+        "title": "text-4xl font-bold text-text-base",
+        "subtitle": "mt-4 text-lg text-text-muted",
+        "grid": "mt-16 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8",
+        "logoContainer": "flex justify-center items-center p-4 bg-surface rounded-lg shadow-sm border border-gray-200/80",
+        "logoImage": "h-10",
+        "animation": {
+          "type": "zoomIn"
+        }
+      }
+    },
+    "awards": {
+      "content": {
+        "title": "Diakui oleh Industri",
+        "subtitle": "Kami bangga dengan penghargaan dan pengakuan yang telah kami terima dari para pemimpin industri.",
+        "items": [
+          {
+            "logoUrl": "https://placehold.co/150x150/cccccc/888888?text=G2",
+            "name": "Pemimpin Pasar G2",
+            "description": "Musim Semi 2024"
+          },
+          {
+            "logoUrl": "https://placehold.co/150x150/cccccc/888888?text=Capterra",
+            "name": "Pilihan Pengguna Capterra",
+            "description": "Peringkat Tertinggi 2024"
+          },
+          {
+            "logoUrl": "https://placehold.co/150x150/cccccc/888888?text=Forbes",
+            "name": "Forbes Cloud 100",
+            "description": "Bintang Baru"
+          },
+          {
+            "logoUrl": "https://placehold.co/150x150/cccccc/888888?text=Webby",
+            "name": "Penghargaan Webby",
+            "description": "Aplikasi Bisnis Terbaik"
+          }
+        ]
+      },
+      "theme": {
+        "section": "bg-surface py-24",
+        "container": "container mx-auto px-6",
+        "headerContainer": "text-center max-w-3xl mx-auto",
+        "title": "text-4xl font-bold text-text-base",
+        "subtitle": "mt-4 text-lg text-text-muted",
+        "grid": "mt-16 grid md:grid-cols-4 gap-8",
+        "item": "text-center",
+        "itemLogo": "h-24 mx-auto mb-4",
+        "itemName": "font-semibold text-text-base",
+        "itemDescription": "text-sm text-text-muted",
+        "animation": {
+          "type": "fadeInUp",
+          "duration": "800ms"
+        }
+      }
+    },
+    "newsletter": {
+      "content": {
+        "title": "Dapatkan Update Terbaru",
+        "subtitle": "Berlangganan buletin kami untuk mendapatkan tips dan berita produk terbaru langsung ke kotak masuk Anda.",
+        "cta": {
+          "text": "Berlangganan",
+          "link": "#"
+        }
+      },
+      "theme": {
+        "section": "bg-background py-24",
+        "container": "container mx-auto px-6 max-w-2xl text-center",
+        "title": "text-3xl font-bold text-text-base",
+        "subtitle": "mt-4 text-lg text-text-muted",
+        "form": "mt-8 flex flex-col sm:flex-row gap-4",
+        "emailInput": "flex-grow px-4 py-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none",
+        "submitButton": "bg-primary text-white px-6 py-3 rounded-md font-semibold hover:opacity-90 transition-opacity shadow",
+        "animation": {
+          "type": "fadeInUp",
+          "duration": "800ms"
+        }
+      }
+    },
+    "ctaBanner": {
+      "content": {
+        "title": "Siap Mengubah Cara Anda Bekerja?",
+        "description": "Bergabunglah dengan ribuan bisnis yang sudah merasakan manfaatnya.",
+        "cta": {
+          "text": "Mulai Percobaan Gratis Anda",
+          "link": "#"
+        }
+      },
+      "theme": {
+        "section": "bg-primary",
+        "container": "container mx-auto py-20 text-center text-white px-6",
+        "title": "text-4xl font-extrabold mb-4",
+        "description": "text-lg opacity-90 mb-8 max-w-2xl mx-auto",
+        "ctaButton": "inline-block bg-white text-primary px-8 py-4 rounded-lg font-bold text-lg hover:scale-105 transition-transform shadow-lg",
+        "animation": {
+          "type": "zoomIn"
+        }
+      }
+    },
+    "footer": {
+      "content": {
+        "logoUrl": "https://placehold.co/140x40/ffffff/111827?text=LandingOn",
+        "description": "Platform terintegrasi untuk mempercepat pertumbuhan bisnis Anda.",
+        "socialLinks": [
+          {
+            "name": "X",
+            "link": "#"
+          },
+          {
+            "name": "in",
+            "link": "#"
+          },
+          {
+            "name": "FB",
+            "link": "#"
+          }
+        ],
+        "linkGroups": [
+          {
+            "title": "Produk",
+            "links": [
+              {
+                "text": "Fitur",
+                "link": "#features"
+              },
+              {
+                "text": "Harga",
+                "link": "#pricing"
+              },
+              {
+                "text": "Integrasi",
+                "link": "#integrations"
+              }
+            ]
+          },
+          {
+            "title": "Perusahaan",
+            "links": [
+              {
+                "text": "Tentang Kami",
+                "link": "#about"
+              },
+              {
+                "text": "Karir",
+                "link": "#"
+              },
+              {
+                "text": "Kontak",
+                "link": "#ctaBanner"
+              }
+            ]
+          },
+          {
+            "title": "Sumber Daya",
+            "links": [
+              {
+                "text": "Blog",
+                "link": "#"
+              },
+              {
+                "text": "Dukungan",
+                "link": "#"
+              },
+              {
+                "text": "API",
+                "link": "#"
+              }
+            ]
+          }
+        ],
+        "copyright": "© 2024 LandingOn. Seluruh hak cipta."
+      },
+      "theme": {
+        "footer": "bg-text-base text-gray-300",
+        "container": "container mx-auto py-16 px-6",
+        "grid": "grid md:grid-cols-5 gap-8",
+        "brandColumn": "md:col-span-2",
+        "logo": "h-20 mb-4",
+        "description": "text-sm max-w-xs",
+        "socialLinksContainer": "mt-4 flex space-x-4",
+        "socialLink": "bg-white h-12 w-12 rounded-full flex items-center justify-center text-slate-800 text-gray-400 hover:text-primary transition-colors",
+        "linkGroupTitle": "font-semibold text-white mb-4",
+        "linkGroupList": "space-y-3",
+        "link": "text-gray-400 hover:text-primary transition-colors",
+        "copyright": "mt-12 pt-8 border-t border-gray-700 text-center text-sm text-gray-500",
+        "animation": {
+          "type": "fadeIn"
+        }
+      }
+    }
+  }
+}
